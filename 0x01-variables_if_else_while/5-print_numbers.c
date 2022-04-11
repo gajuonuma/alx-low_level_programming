@@ -5,12 +5,11 @@
  * Description: prints all single digit numbers of base 10 starting from 0 to 9
  * Return: 0
  */
-int main(void)
 {
-int b;
-for (b = 0; b < 10; b++)
+int i;
+for (i = 0; i < 10; i++)
 {
-printf("%b", b);
+printf("%i", i);
 }
 printf("\n");
 return (0);
